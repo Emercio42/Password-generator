@@ -50,14 +50,20 @@ h1 {
     display: flex;
     justify-content: space-between;
     color: #55F991;
-
 }
 
-#passLeft, #passRight {
+#passLeftBox, #passRightBox {
     background: #273549;
     border-radius: 6px;
-    padding: 10px 38px;
+    padding: 10px 0px 10px 0px;
     border: none;
-    margin-left: 0px;
-    margin-right: 22px;
+    width: 215px;
+    height: 20px;
+    text-align: center;
+}
+
+#passLeftText, #passRightText {
+    text-align: center; 
+    width: 200px;
+    margin: auto;
 }
