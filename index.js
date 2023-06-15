@@ -13,8 +13,8 @@ btnRandomPassGenEl.addEventListener("click", function() {
     let passwordLeft = ""
     let passwordRight = ""
     for (let i = 0; i < passwordLength; i++) {
-        let randomNumberOne = Math.floor (Math.random() * characters.length);
-        let randomNumberTwo = Math.floor (Math.random() * characters.length);
+        let randomNumberOne = Math.floor(Math.random() * characters.length)
+        let randomNumberTwo = Math.floor(Math.random() * characters.length)
         passwordLeft += characters[randomNumberOne]
         passwordRight += characters[randomNumberTwo]
 
